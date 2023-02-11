@@ -8,7 +8,7 @@ public class F1 extends Car {
     }
 
     public void accelerate(int rate){
-        int newSpeed = rt_speed()+rate; //set the value of new speed by using currentSpeed and rate
+        int newSpeed = getCurrentSpeed()+rate; //set the value of new speed by using currentSpeed and rate
 
 
         /**
@@ -51,7 +51,5 @@ public class F1 extends Car {
         }
     }
 
-    private int getCurrentDirection() {
-        return super.dir();
-    }
+
 }
